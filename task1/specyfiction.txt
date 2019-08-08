@@ -1,0 +1,26 @@
+TECHNICAL SPECIFICATIONS 
+
+1.Mobile First Design
+2. Responisvie / Adapitve RWD (breakpoints like in bootstrap)
+3. IE 9+ compatibility, Chrome25 +, Safri 5.1 +, Opera, Firefox
+4. Technologies: HTML5, CSS, Bootstrap, jQuery, SASS
+4. Bootstrap CDN 
+
+Gulp Task Manager:
+1. JS, CSS, HTML minification
+2. Comapass / SASS
+3. Jade
+4. Browser synchronization
+
+
+// SEO
+
+1. Validated and properly embeded HTML elements
+2. Meta description, meta keywords
+3. A naturally flowing hierarchy (h1,h2,h3)
+4. Optimize your content
+
+//ACCESSABILITY
+1. Skip link
+2. Validate and proper use HTML elements (e. g. alt for images, label, text in anchor element)
+3. Aria-controls
