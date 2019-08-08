@@ -1,0 +1,168 @@
+doctype html
+html(lang='pl')
+	head
+		meta(charset='UTF-8')
+		meta(name='viewport', content='width=device-width, initial-scale=1.0')
+		meta(name='keywords',content='Smoothie delight')
+		meta(name='description', content='Super page')
+		link(href='app/css/style.css', type='text/css', rel='stylesheet')
+		script(src='https://code.jquery.com/jquery-3.4.1.min.js', integrity='sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=', crossorigin='anonymous')
+		script(src='https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js', integrity='sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM', crossorigin='anonymous')
+	body
+		div.skip-links
+			a(href="#navbarNav") Skip to navigation
+			a(href="#content") Skip to content
+		header
+			div.container
+				div.row
+					h1.col-12.col-md-6
+							| Smoothie delight
+					button#menu-button.navbar-toggler.col-4(type='button', data-toggle='collapse', data-target='#navbarNav', aria-controls='navbarNav', aria-expanded='false', aria-label='Toggle navigation')
+							.animated-icon3
+								span
+								span
+								span
+					nav.col-12.col-md-6.navbar.navbar-expand-lg
+						#navbarNav.collapse.navbar-collapse
+							ul.navbar-nav
+								li.nav-item.active(content="healthy") 
+									a.nav-link(href='#healthy') Healthy
+								li.nav-item(content="count")
+									a.nav-link(href='#count') Count
+								li.nav-item(content="losewieght")
+									a.nav-link(href='#lose') Lose wieght
+								li.nav-item(content="muscule")
+									a.nav-link(href='#muscule') Muscule
+								li.nav-item(content="stayalert")
+									a.nav-link(href='#stayalert') Stay alert
+		main#content
+			section.healthy#healthy
+				div.container
+					div.row
+						div.col-12
+							h2.orange HEALTHY & DELICIOUS
+							div.description
+								p
+									| "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+					div.row.icons
+						div.col-12.col-sm-4
+							div.icon.icon1
+								div.bg
+						div.col-12.col-sm-4
+							div.icon.icon2
+								div.bg
+						div.col-12.col-sm-4
+							div.icon.icon3
+								div.bg
+					div.row
+						div.col-12.col-md-6.offset-md-3
+							p.text-center
+									| "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+			section.count#count
+				div.container
+					div.row
+						div.col-12.col-md-6.text-center
+							h2.darkblue EVERY SMOOTHIE IS AN EXPERIENCE. MAKE IT COUNT!
+					div.row
+						div.col-12.col-md-6.text-center
+							img(src="app/images/hook.jpg" alt="hook")
+						div.col-12.col-md-6
+							div.description
+								p
+									| "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+			section.losewieght#losewieght
+				div.container
+					div.row
+						div.col-12.col-md-5.offset-md-3
+							h2.darkblue LOSE WEIGHT
+					div.row 
+						div.col-12.col-md-5.offset-md-3
+							div.description
+								p 
+									| "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+								p 
+									| "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+			section.muscule#muscule
+				div.container
+					div.row
+						div.col-12
+							h2.darkblue ADD MUSCULES
+					div.row
+						div.col-12
+							div.description
+									ol			
+										li
+											| First
+										li
+											| Second
+										li 
+											| Third
+										li
+											| Big muscules
+										li
+											| Second
+										li 
+											| Third
+										li
+											| First
+										li
+											| Second
+										li 
+											| Third
+										li
+											| More muscules
+										li
+											| Second
+										li 
+											| Third
+			section.stayalert#stayalert
+				div.container
+					div.row
+						div.col-12.col-md-5
+							div.row
+								h2.col-12 Stay alert!
+							div.row
+								div.col-12
+									p 
+										|Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.|Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.|Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+						div.col-12.col-md-6.offset-md-1
+							div.row
+								h3.col-12 SIGN UP FOR OUR MAILING LIST TO GET UPDATES.
+							div.row.sign-up
+								div.col-12
+									form.form-inline.needs-validation(novalidate='')
+										div.form-group
+											input#email.form-control(type='email', name='email', placeholder='Email Address..', pattern='[a-z0-9._%+-]+@[a-z0-9.-]+.[a-z]{2,4}$', required='')
+											div.valid-feedback.feedback-pos Looks good!
+											div.invalid-feedback.feedback-pos Please input valid email 
+										.form-group
+											button.btn(type='submit', value='validate') Notify
+		footer
+			div.container
+				div.row
+					div.col-12.social-media.text-center
+						ul
+							li
+									a(href="http://facebook.com" target="_blank")
+										span.icon.twitter
+											| twitter
+							li
+									a(href="http://facebook.com" target="_blank")
+										span.icon.facebook 
+											| facebook
+							li
+									a(href="http://facebook.com" target="_blank")
+										span.icon.prinster
+												| prinster
+							li
+									a(href="http://facebook.com" target="_blank")
+										span.icon.linkedIn
+											| linkedIn
+							li
+									a(href="http://youtube.com" target="_blank")
+										span.icon.youtube
+											| youtube
+	script(src="app/js/app.min.js")
+   
+
