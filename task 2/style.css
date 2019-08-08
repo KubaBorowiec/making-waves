@@ -1,0 +1,26 @@
+#largeBlackText{
+	font-size: 32px; 
+	font-weight: 700;
+}
+.blackItalicParagraphText{
+	font-style: italic; 
+	margin-bottom: 10px; 
+	color: black;
+}
+#blueHiderLinkThing{
+	color: blue; 
+	text-decoration: underline; 
+	cursor: pointer;
+}
+#list1{
+	visibility:hidden;
+}
+#note{
+	color: aqua; 
+	background: blue; 
+	padding: 10px;
+}
+#highlightedBlackText {
+	font-weight: bold; 
+	color: blue; 
+}
