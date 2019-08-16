@@ -13,3 +13,5 @@
           document.getElementById('list1').style.visibility = 'hidden';
        } 
 	}
+// look into suggestions from task1. 
+// look into implications of handling style attributes in js. consider toggling css classes instead. 
