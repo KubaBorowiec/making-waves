@@ -1,29 +1,31 @@
+//MW: improvement suggestions were stated only once and were not repeated in all occurances of spotted problems.
+
 input:focus,
 select:focus,
 textarea:focus,
 button:focus {
-    outline: none;
+    outline: none; //overwritten by bootstrap
 }
-body { font-size: 16px;
+body { font-size: 16px; //please fix formatting
 }
 .skip-links{
-	    position: absolute;
+	    position: absolute; //please use consistend indentation
        left: -999em;
        width: 990em;
 }
-header{
+header{ //please look into best practices of using css selectors. check https://cssguidelin.es/ 
 	position:fixed;
 	z-index:1;
 	width:100%;
 	border:1px solid #e65100;
 	background-color:#FFF;
-	.container{
+	.container{ //please avoid unnecessary nesting. limit the specificity of your selectors for better code mainainability and extendability
 		position:relative;
 	}
 	h1{
-		font-size:1.7rem;
+		font-size:1.7rem; //please use consistent white space formatting; 
 		margin-top:1rem;
-		color:$second-color;
+		color:$second-color; //consider using the same approach to variables as bootstrap and configuring it to follow your styleguide since you've decided to use that framework 
 	}
 	.navbar-brand{
 		color:$main-color;
@@ -67,11 +69,11 @@ section{
 
 .healthy,.losewieght{
 	.container{
-		background-color:#E8E8E8;}
+		background-color:#E8E8E8;} //please consider moving all colors to configuration file for future maintainability and extendability
 }
 .count{
 	.container{
-	background-color:rgb(58, 110, 232);
+	background-color:rgb(58, 110, 232); //please use consistent color notation
 	color:#FFF;}
 }
 .muscule{
@@ -86,7 +88,7 @@ section{
 		width:90px;
 		height:90px;
 		position:relative;
-		-webkit-box-shadow: inset 10px -8px 82px -24px $main-color;
+		-webkit-box-shadow: inset 10px -8px 82px -24px $main-color; //since you've decided to use compass in your project please use it's capabilities to provide you with needed prefixes.
     	-moz-box-shadow: inset 10px -8px 82px -24px $main-color;
     	box-shadow: inset 10px -8px 82px -24px $main-color;
 		.bg{
@@ -100,10 +102,10 @@ section{
 			background-image:url('../images/sprite.png');
 		}
 	}
-	.icon:hover{
+	.icon:hover{ //avoid having empty rules in your styles. don't clutter your code. 
 
 	}
-	.icon1{
+	.icon1{ //consider looking into css naming conventions and css architecture approaches
 		.bg{
 			background-position: 0 120px;
 
@@ -160,7 +162,7 @@ section{
 		}
 	}
 }
-footer{
+footer{ //please ovoid overly general selectors
 	padding-bottom:4rem;
 	ul,li{
 		padding:0;
